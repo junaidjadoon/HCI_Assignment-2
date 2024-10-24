@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b3ecff;
+}
+
+.navbar {
+    background-color: #d98c8c;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-button {
+    background-color: #d98c8c;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.nav-button:hover {
+    background-color: #b36b6b;
+}
+
+.content {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.bus-list {
+    background-color: #cc6666;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.bus-item {
+    display: flex;
+    align-items: center;
+    background-color: #f4a7a7;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.bus-item img {
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.bus-details {
+    text-align: left;
+}
+
+.bus-details h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #4d4dff;
+    background-color: #d4f1ff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.bus-details p {
+    margin: 5px 0 0 0;
+    color: #000;
+    font-size: 16px;
+}
